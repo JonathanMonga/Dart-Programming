@@ -1,16 +1,26 @@
+class MyCl {
+  late String _name;
 
+  get name => _name;
 
-class mycl{
-  var name;
-  var age;
-
-  mycl(var a,var b){
-    name = a;
-    age = b;
+  set name(value) {
+    _name = value;
   }
 
-  void hi(){
+  late int _age;
+
+  get age => _age;
+
+  set age(value) {
+    _age = value;
+  }
+
+  MyCl(String a, int b) {
+    _name = a;
+    _age = b;
+  }
+
+  void hi() {
     print("hello every body");
   }
-
 }

@@ -1,8 +1,7 @@
-
-import 'Data Model.dart';
+import 'data_model.dart';
 
 void main(){
-  var obj = new Data();
+  var obj = Data();
 
   obj.setname = "nahid";
   print(obj.getname);

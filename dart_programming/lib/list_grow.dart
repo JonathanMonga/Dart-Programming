@@ -1,6 +1,5 @@
-
 void main(){
-  var name = new List();
+  var name = [];
   name.add("nahid");
   name.add("nah");
   name.add("nahi");

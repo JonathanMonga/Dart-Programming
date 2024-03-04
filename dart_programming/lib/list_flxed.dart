@@ -1,6 +1,5 @@
-
 void main(){
-  var name = new List(3);
+  var name = [];
 
   name[0]  = "Mj";
   name[1] = "Nahid";

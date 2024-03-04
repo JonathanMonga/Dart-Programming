@@ -1,18 +1,17 @@
-
-void main(){
-
-  var obj = new myclass();
+void main() {
+  var obj = MyClass();
   obj.one();
   print(obj.name);
 }
 
-class myclass{
+class MyClass {
   var name = "mj";
 
-  void one(){
+  void one() {
     print("one");
   }
-  void two(){
+
+  void two() {
     print("two");
   }
 }

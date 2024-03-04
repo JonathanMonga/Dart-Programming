@@ -1,9 +1,7 @@
+import 'package:dart_programming/constructors_file.dart';
 
-import 'Constructors_file.dart';
-
-
-void main(){
-  var obj = new mycl("nahid","20");
+void main() {
+  var obj = MyCl("nahid", 20);
   obj.hi();
   print(obj.age);
 }
