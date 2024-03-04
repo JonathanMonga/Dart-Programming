@@ -5,6 +5,7 @@ void main(){
   obj.one();
   print(obj.name);
 }
+
 class myclass{
   var name = "mj";
 
