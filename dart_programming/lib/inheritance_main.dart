@@ -1,7 +1,7 @@
-import 'nheritance_son.dart';
+import 'inheritance_son.dart';
 
-void main(){
-  var total = new son();
+void main() {
+  var total = Son();
   total.addr();
   total.surname();
   total.blood();

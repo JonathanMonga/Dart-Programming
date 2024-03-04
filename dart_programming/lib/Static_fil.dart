@@ -1,5 +1,4 @@
-
-class Static_fil{
+class StaticFil{
 
  static void hello(){
    var a = 10;

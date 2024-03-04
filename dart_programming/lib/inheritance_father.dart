@@ -1,21 +1,23 @@
+abstract class Father {
+  // that mean father class ke r use kora jabe na
 
-abstract class father{// that mean father class ke r use kora jabe na
-
-  void addr(){
+  void addr() {
     var add = "kushumdia";
     print(add);
   }
-  void surname(){
+
+  void surname() {
     var name = "molla";
     print(name);
   }
-  void blood(){
+
+  void blood() {
     var blood = "o+";
     print(blood);
   }
-  void coun(){
+
+  void coun() {
     var coun = "bangladesh";
     print(coun);
   }
-
 }

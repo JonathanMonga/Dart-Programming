@@ -1,5 +1,5 @@
 void main(){
-  var map = new Map();
+  var map = {};
   map['name'] = 'mj';
   map['roll'] = '131446';
   map['depr'] = 'cmt';

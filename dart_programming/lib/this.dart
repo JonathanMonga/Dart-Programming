@@ -1,16 +1,12 @@
-
-void main(){
-  var love = new myclass();
+void main() {
+  var love = Myclass();
   love.mahjuba();
 }
-class myclass{
 
+class Myclass {
   var aim = "i love you";
 
-  void mahjuba(){
-    print(this.aim);
+  void mahjuba() {
+    print(aim);
   }
-  /*void ami(){
-    this.mahjuba();
-  }*/
 }
